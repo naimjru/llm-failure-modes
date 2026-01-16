@@ -1722,12 +1722,6 @@ FOR AGENTIC CODING:
 - v1 (January 2026): Original A1-A15, B1-B18 taxonomy
 - v2 (January 2026): Added C1-C15 agentic coding failures with verified citations
 - v2.1 (January 2026): Citation validation and corrections
-  - Fixed: Legal hallucination source (Huang et al. → Dahl et al. 2024)
-  - Fixed: LLM-as-evaluator bias source (Echterhoff et al. → Koo et al. 2024)
-  - Fixed: Code cloning statistic (removed incorrect 4× claim)
-  - Added: Inline citations for hallucination inevitability and cognitive miser hypothesis
-  - Added: URLs to all Key Papers in References section
-  - Validated: All 29 citations checked by parallel agents (27 fully verified, 2 partial)
 
 **Last Updated:** January 2026
 
