@@ -1723,8 +1723,6 @@ FOR AGENTIC CODING:
 - v2 (January 2026): Added C1-C15 agentic coding failures with verified citations
 - v2.1 (January 2026): Citation validation and corrections
 
-**Last Updated:** January 2026
-
 ---
 
 <p align="center">
