@@ -1,0 +1,3 @@
+title: LLM Failure Modes & Human Prompting Pitfalls
+description: A unified taxonomy of 48 failure modes in LLMs and agentic coding tools, with research-backed mitigations
+theme: jekyll-theme-cayman
