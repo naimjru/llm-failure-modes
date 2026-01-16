@@ -1,19 +1,19 @@
 ---
 layout: default
-title: "LLM Failure Modes & Human Prompting Pitfalls"
+title: "Taxonomy and Survey of LLM Failure Modes & Human Prompting Pitfalls"
 description: "A unified taxonomy of 48 failure modes in LLMs and agentic coding tools, with research-backed mitigations"
 ---
 
-# LLM Failure Modes & Human Prompting Pitfalls
+# Taxonomy and Survey of LLM Failure Modes & Human Prompting Pitfalls
 ## Unified Taxonomy with Agentic Coding Extensions
 
 **Author:** [Na'im Ru](https://www.linkedin.com/in/naimru)
-**Version:** January 2026 (Consolidated Research Edition v2)
+**Version:** January 2026
 **Scope:** General LLM usage + Agentic coding workflows (Claude Code, Cursor, Copilot Chat, Aider)
 
 ---
 
-## Executive Summary
+## Overview
 
 ### Three Categories of Failure Modes
 
@@ -1678,28 +1678,31 @@ FOR AGENTIC CODING:
 ## Agentic Coding Research (Verified January 2026)
 
 ### Tier 1: High Authority (Peer-Reviewed/RCT)
-| Citation | Source | URL |
-|----------|--------|-----|
-| 31.7% execution failures | arXiv 2512.22387 | https://arxiv.org/abs/2512.22387 |
-| 13.5× dependency expansion | arXiv 2512.22387 | https://arxiv.org/abs/2512.22387 |
-| 19% slower (experienced devs) | METR RCT 2025 | https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/ |
+
+| Finding | Source |
+|---------|--------|
+| 31.7% execution failures | [arXiv 2512.22387](https://arxiv.org/abs/2512.22387) |
+| 13.5× dependency expansion | [arXiv 2512.22387](https://arxiv.org/abs/2512.22387) |
+| 19% slower (experienced devs) | [METR RCT 2025](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) |
 
 ### Tier 2: Medium Authority (Industry Telemetry/Surveys)
-| Citation | Source | URL |
-|----------|--------|-----|
-| 67% debugging time increase | Harness 2025 | https://www.prnewswire.com/news-releases/harness-releases-its-state-of-software-delivery-report-developers-excited-by-promise-of-ai-to-combat-burnout-but-security-and-governance-gaps-persist-302345391.html |
-| 154% PR size increase | Faros AI / DORA 2025 | https://www.faros.ai/blog/key-takeaways-from-the-dora-report-2025 |
-| 91% code review time | Faros AI | https://www.faros.ai/blog/ai-software-engineering |
-| Copy/paste code 8.3%→12.3% | GitClear 2025 | https://www.gitclear.com/ai_assistant_code_quality_2025_research |
-| Code churn doubled | GitClear 2024 | https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality |
-| 1.7× more issues per PR | CodeRabbit | https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report |
-| 20-40% faster coding | Index.dev | https://www.index.dev/blog/ai-coding-assistants-roi-productivity |
-| 78% productivity, 76% trust gap | Qodo 2025 | https://www.qodo.ai/reports/state-of-ai-code-quality/ |
+
+| Finding | Source |
+|---------|--------|
+| 67% debugging time increase | [Harness 2025](https://www.prnewswire.com/news-releases/harness-releases-its-state-of-software-delivery-report-developers-excited-by-promise-of-ai-to-combat-burnout-but-security-and-governance-gaps-persist-302345391.html) |
+| 154% PR size increase | [Faros AI / DORA 2025](https://www.faros.ai/blog/key-takeaways-from-the-dora-report-2025) |
+| 91% code review time | [Faros AI](https://www.faros.ai/blog/ai-software-engineering) |
+| Copy/paste code 8.3%→12.3% | [GitClear 2025](https://www.gitclear.com/ai_assistant_code_quality_2025_research) |
+| Code churn doubled | [GitClear 2024](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) |
+| 1.7× more issues per PR | [CodeRabbit](https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report) |
+| 20-40% faster coding | [Index.dev](https://www.index.dev/blog/ai-coding-assistants-roi-productivity) |
+| 78% productivity, 76% trust gap | [Qodo 2025](https://www.qodo.ai/reports/state-of-ai-code-quality/) |
 
 ### Tier 3: Case Studies
-| Citation | Source | URL |
-|----------|--------|-----|
-| $47,000 agent loop failure | TechStartups 2025 | https://techstartups.com/2025/11/14/ai-agents-horror-stories-how-a-47000-failure-exposed-the-hype-and-hidden-risks-of-multi-agent-systems/ |
+
+| Finding | Source |
+|---------|--------|
+| $47,000 agent loop failure | [TechStartups 2025](https://techstartups.com/2025/11/14/ai-agents-horror-stories-how-a-47000-failure-exposed-the-hype-and-hidden-risks-of-multi-agent-systems/) |
 
 ## Industry Reports
 - [GitClear: AI Copilot Code Quality 2025](https://www.gitclear.com/ai_assistant_code_quality_2025_research)
@@ -1726,8 +1729,6 @@ FOR AGENTIC CODING:
   - Added: URLs to all Key Papers in References section
   - Validated: All 29 citations checked by parallel agents (27 fully verified, 2 partial)
 
-**Research Methodology:** Category C synthesized from three parallel AI agents (Opus, Gemini, Codex) with multi-agent citation verification. v2.1 validation performed by Opus and Gemini agents in parallel.
-
 **Last Updated:** January 2026
 
 ---
@@ -1737,5 +1738,5 @@ FOR AGENTIC CODING:
 </p>
 
 <p align="center">
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+© 2026 Na'im Ru. All rights reserved.
 </p>
